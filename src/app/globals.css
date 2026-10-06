@@ -18,9 +18,10 @@
 			padding-bottom: 300px;
 			/* margin-top: 44px; */
 		}
-		body.maintenance{
-            margin-top: 44px;
-        }
+
+		body.maintenance {
+			margin-top: 44px;
+		}
 
 		body.daymode {
 			background: #fff;
@@ -5038,5 +5039,13 @@
 		.home-page .usermenudrop .dropdown-toggle:after {
 			display: none !important;
 		}
-
-		
+		.daymode .tabbanner.tab-ban-ner {
+			border-bottom: 1px solid #10101210;
+		}
+		.historypage .tabbanner.tab-ban-ner {
+			flex-wrap: inherit;
+			border-bottom: 1px solid #ffffff2e;
+			margin: 0;
+			padding-bottom: 0;
+			display: flex;
+		}
