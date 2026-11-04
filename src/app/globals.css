@@ -3841,7 +3841,6 @@
 			max-height: 200px !important;
 		} */
 
-
 		@media (max-width:1480px) {}
 
 		@media (max-width:1400px) {
@@ -4232,6 +4231,9 @@
 		}
 
 		@media (max-width:767px) {
+			.coming-soon-text h2 {
+				font-size: 24px !important;
+			}
 
 			.home-page .footerbox .col-sm-12 .text-end,
 			.footer-span {
@@ -5039,13 +5041,19 @@
 		.home-page .usermenudrop .dropdown-toggle:after {
 			display: none !important;
 		}
-		.daymode .tabbanner.tab-ban-ner {
-			border-bottom: 1px solid #10101210;
-		}
-		.historypage .tabbanner.tab-ban-ner {
-			flex-wrap: inherit;
-			border-bottom: 1px solid #ffffff2e;
-			margin: 0;
-			padding-bottom: 0;
+
+		.coming-soon-vector {
+			position: relative;
+			width: 100px;
+			height: 100px;
+			margin: 0 auto;
+			margin-bottom: 20px;
 			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+
+		/* =========================================
+   Glow - Infinite Pulse
 		}
